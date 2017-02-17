@@ -1,23 +1,13 @@
----
-layout: default
----
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<!DOCTYPE html>
+<head>
+<title>Vikash Khairwal</title>
+<link rel="stylesheet" href="bootstrap4/css/bootstrap.css">
+<link rel="stylesheet" href="css/main.css">
+<body>
+  <div class="nav">
+  <div class="container">
+  <li><a href ="http://www.vikashkhairwal.com">VIKASH KHAIRWAL</a></li>
+  </div>
+  </div>
+</body>
+</html>
