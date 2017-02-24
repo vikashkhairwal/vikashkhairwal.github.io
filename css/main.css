@@ -1,0 +1,92 @@
+.nav{
+background-color:#f7f7f7;
+}
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+  padding-left:20px;
+}
+.jumbotron1 .container  li {
+  display: inline;
+  padding-left:30px;
+}
+.jumbotron {
+  background-image:url('background.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color:white;
+  margin-top:-60px;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color:lightgreen;
+}
+
+.jumbotron1 {
+  background-image:url('about.jpg');
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron1 .container {
+  position: relative;
+  top:8px;
+}
+
+.jumbotron1 h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron1 p {
+  font-size: 20px;
+  color: #0000FF;
+}
+
+.jumbotron2 {
+  background-image:url('exoticabase.jpg');
+  height: 550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron2 .container {
+  position: relative;
+  bottom:0px;
+}
+
+.jumbotron2 h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron2 p {
+  font-size: 20px;
+  color: #fff;
+}
+
