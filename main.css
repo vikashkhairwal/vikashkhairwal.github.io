@@ -10,3 +10,13 @@
   top:100px;
 }
 
+.nav a{
+	display: inline;
+	margin-left: 80px;
+}
+footer {-webkit-order:1;order:1;background:lightblue;color:black;}
+
+
+.social{
+	padding-left: 40%;
+}
