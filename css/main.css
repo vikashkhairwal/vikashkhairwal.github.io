@@ -1,6 +1,6 @@
 .jumbotron {
   background-image:url('background.jpg');
-  height: 500px;
+  height: 50%;
   background-repeat: no-repeat;
   background-size: cover;
 }
