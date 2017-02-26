@@ -6,6 +6,14 @@
 <link rel="stylesheet" href="bootstrap4/css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="bootstrap4/css/bootstrap-social.css">
 <link rel="stylesheet" type="text/css" href="bootstrap4/css/font-awesome.css">
+<script type="text/javascript" src="bootstrap4/js/main.js"></script>
+
+<style type="text/css">
+  footer{
+    margin-top: 54%;
+  }
+</style>
+</head>
 <body>
 <header>
 <nav class="nav nav-pills flex-column flex-sm-row">
@@ -17,13 +25,58 @@
 </nav>
    
 </header>
-
-  <video width="100%" preload="metadata" controls autoplay loop><source src="images/contact.mp4" type="video/mp4"></video>
-  
-<footer> 
+<video poster="images/contact.jpg" id="bgvid" playsinline autoplay loop>
+<source src="images/contact.mp4" type="video/mp4">
+</video>
+<div id="polina">
+<h1>Contact Me</h1>
+<div class="row">
+<div class="col-md-6">
+  <h4>Subject</h4> 
+</div>
+<div class="col-md-6">
+  <select>
+    <option>Select</option>
+    <option>Youtube</option>
+    <option>Project</option>
+    <option>Suggestion</option>
+  </select>
+</div>
+<div class="col-md-6">
+  <h4>Name</h4> 
+</div>
+<div class="col-md-6">
+ <input type="text" maxlength="30" size="10" name="name">
+</div>
+<div class="col-md-6">
+  <h4>Email</h4> 
+</div>
+<div class="col-md-6">
+ <input type="email" maxlength="30" size="10" name="email">
+</div>
+<div class="col-md-6">
+  <h4>Message</h4> 
+</div>
+<div class="col-md-6">
+ <textarea maxlength="100" cols="15" rows="6" name=message></textarea> 
+</div>
+<button>SEND MAIL</button>
+<div class="col-md-3">
+<a href="mailto:vikashkhairwal@gmail.com"><img src="images/contact1.png"></a>
+<i>vikashkhairwal@gmail.com</i>
++917767984660
+</div>
+<div class="col-md-3">
+<a href="callto:+917767984660"><img src="images/contact2.png"></a>
+</div>
+<div class="col-md-6" id ="map">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.271483333283!2d73.87298795020111!3d18.606854987296757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c70090000001%3A0x160a20f3d0273495!2sArmy+Institute+of+Technology!5e0!3m2!1sen!2sin!4v1488095615552" width="180" height="140" frameborder="0" style="border:0" allowfullscreen><img src="images/contact4.png"></iframe>
+</div>
+</div>
+</div>
+<footer id="uniquefooter"> 
   <div align="center" class="tags">
     <span class="tags-title">Tags:</span> <a href="#" rel="tag"><b>Home | </a> <a href="#" rel="tag">YouTube | </a> <a href="#" rel="tag">Projects |</a> <a href="#" rel="tag">Contact Me</b></a>
-
   </div>
   <div class="social">
   <a class="btn btn-social-icon btn-youtube" href="https://youtube.com/vikashkhairwal">
