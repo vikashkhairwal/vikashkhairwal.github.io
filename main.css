@@ -40,7 +40,7 @@ video {
 }
 
 
-video { 
+video {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -54,13 +54,13 @@ video {
   background-size: cover;
   transition: 1s opacity;
 }
-.stopfade { 
+.stopfade {
    opacity: .5;
 }
 
-#polina { 
+#polina {
   font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
-  font-weight:100; 
+  font-weight:100;
   background: rgba(0,0,0,0.3);
   color: white;
   padding: 2rem;
@@ -75,20 +75,20 @@ h1 {
   margin-top: 0;
   letter-spacing: .3rem;
 }
-#polina button { 
+#polina button {
   display: block;
   width: 80%;
   padding: .4rem;
-  border: none; 
-  margin: 1rem auto; 
+  border: none;
+  margin: 1rem auto;
   font-size: 1.3rem;
   background: rgba(255,255,255,0.23);
   color: yellow;
-  border-radius: 3px; 
+  border-radius: 3px;
   cursor: pointer;
   transition: .3s background;
 }
-#polina button:hover { 
+#polina button:hover {
    background: rgba(0,1,0,0.5);
 }
 
