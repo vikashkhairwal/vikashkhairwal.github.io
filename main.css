@@ -7,16 +7,31 @@
 
 .jumbotron .container {
   position: relative;
-  top:100px;
+}
+.nav{
+background-color:#f7f7f7;
 }
 
 .nav a{
+  font-family:monospace;
 	display: inline;
-	margin-left: 80px;
+	margin-left: 70px;
+  color: #5a5a5a;
+  font-size:20px;
+  font-weight: bold;
+  padding: 4px 10px;
+  text-transform: uppercase;
+}
+.nav a:hover{
+  color:blue;
+}
+.jumbotron h1 {
+  color:white;
+  font-size: 48px;
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
 }
 footer {-webkit-order:1;order:1;background:lightblue;color:black;}
-
-
 .social{
 	padding-left: 40%;
 }
