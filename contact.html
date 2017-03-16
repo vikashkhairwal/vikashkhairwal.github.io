@@ -39,13 +39,14 @@
 </video>
 <div id="polina">
 <h2><b>Contact Me</b></h2>
+<form method="POST" action="http://formspree.io/vikashkhairwal@gmail.com">
 <div class="form-group">
   <div class="row">
     <div class="col-md-4">
       <label for="subject">Subject</label>
     </div>
     <div class="col-md-8">
-      <select class="form-control" id="subject">
+      <select class="form-control" id="subject" name="_subject">
         <option>Select One</option>
         <option>Youtube</option>
         <option>Project</option>
@@ -59,7 +60,7 @@
   <label for="usr">Name</label>
   </div>
   <div class="col-md-8">
-   <input type="text" class="form-control" id="name">
+   <input type="text" class="form-control" id="name" name="name">
   </div>
 </div>
  <br/>
@@ -68,7 +69,7 @@
    <label for="email">Email</label>
  </div>
  <div class="col-md-8">
-  <input type="email" class="form-control" id="email">
+  <input type="email" class="form-control" id="email" name="_replyto">
 </div>
 </div>
 <div class="row">
@@ -76,10 +77,11 @@
   <label for="comment">Message</label>
 </div>
 <div class="col-md-8">
-  <textarea class="form-control" rows="5" id="message"></textarea>
+  <textarea class="form-control" rows="5" id="message" name="message"></textarea>
 </div>
 </div>
-  <button type="button" class="btn btn-default">SEND MAIL</button>
+  <button type="button" type="submit" value ="Send" class="btn btn-default">SEND MAIL</button>
+</form>
 <div class="row">
 <div class="col-md-3">
 <a href="mailto:vikashkhairwal@gmail.com"><img src="images/contact1.png"></a>
