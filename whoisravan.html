@@ -1,28 +1,8 @@
 <!DOCTYPE html>
-<meta name="google-site-verification" content="phPC6uY3A22gKRyuHXRO98QOBSRObdEKorNiNW_tp4g" />
-
+<html>
 <head>
-<title>Vikash Khairwal</title>
-<meta name="description" content="My name is Vikash Khairwal.I am an IT (INFORMATION TECHNOLOGY) engineer and a full stack developer.I have worked on various projects like Business Expansion Prediction,Medical Store Management.I have knowledge of Web Designing and Development and Software Development.I had worked on HTML5,CSS3,BOOTSTRAP4,mongoDB,MySQL and .NET Framework.I have keen interest in databases like mongoDB and MySQL." />
-<meta name="keywords" content="Vikash Khairwal,full stack developer,business expansion prediction,medical store management,web designer,software developer,.NET developer,web developer,database expert,mongoDB developer,MySQL developer,databse specialist,IT engineer,AIT" />
-<meta name="author" content="Vikash Khairwal"
-<meta name="robots" content="index, follow" />
-
-<link rel="shortcut icon" href="favicon.ico" >
-<link rel="icon" type="image/gif" href="animated_favicon1.gif" >
-
-<link rel="stylesheet" href="main.css">
-<link rel="stylesheet" href="bootstrap4/css/bootstrap.css">
-<link rel="stylesheet" type="text/css" href="bootstrap4/css/bootstrap-social.css">
-<link rel="stylesheet" type="text/css" href="bootstrap4/css/font-awesome.css">
-<script src="https://apis.google.com/js/platform.js"></script>
-<script type="text/javascript">
-body{
-  background-image:url("background.jpg");
-}
-</script>
-
-
+<title>Facebook Login JavaScript Example</title>
+<meta charset="UTF-8">
 </head>
 <body>
 <script>
@@ -52,26 +32,17 @@ body{
       statusChangeCallback(response);
     });
   }
-  
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '340899209694569',
-      xfbml      : true,
-      version    : 'v2.10'
-    });
-    FB.AppEvents.logPageView();
-  };
 
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "//connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
-   
-   
-   // Now that we've initialized the JavaScript SDK, we call 
+  window.fbAsyncInit = function() {
+  FB.init({
+    appId      : '{340899209694569}',
+    cookie     : true,  // enable cookies to allow the server to access 
+                        // the session
+    xfbml      : true,  // parse social plugins on this page
+    version    : 'v2.8' // use graph api version 2.8
+  });
+
+  // Now that we've initialized the JavaScript SDK, we call 
   // FB.getLoginStatus().  This function gets the state of the
   // person visiting this page and can return one of three states to
   // the callback you provide.  They can be:
@@ -89,85 +60,12 @@ body{
 
   };
 
-  // Load the SDK asynchronously
-  (function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_US/sdk.js";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));
-
-  // Here we run a very simple test of the Graph API after login is
-  // successful.  See statusChangeCallback() for when this call is made.
-  function testAPI() {
-    console.log('Welcome!  Fetching your information.... ');
-    FB.api('/me', function(response) {
-      console.log('Successful login for: ' + response.name);
-      document.getElementById('status').innerHTML =
-        'Thanks for logging in, ' + response.name + '!';
-    });
-  }
-</script>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.10&appId=340899209694569";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<header>
-  <nav class="nav nav-pills flex-column flex-sm-row">
-    <a class="flex-sm-fill text-sm-center nav-link" href="index.html"><img src="images/logo.png" width="200px" height="80px"></img></a>
-    <a class="flex-sm-fill text-sm-center nav-link" href="index.html"><i>Home</i></a>
-    <a class="flex-sm-fill text-sm-center nav-link " href="youtube.html"><i>YouTube</i></a>
-    <a class="flex-sm-fill text-sm-center nav-link" href="projects.html"><i>Projects</i></a>
-    <a class="flex-sm-fill text-sm-center nav-link" href="contact.html"><i>Contact Me</i></a>
-    <a class="flex-sm-fill text-sm-center nav-link" href="about.html"><i>About Me</i></a>
-  </nav>
-
-</header>
-<div class="jumbotron">
-  <div class="row" height="500px">
-  <div class="fb-login-button" data-max-rows="1" data-size="large" data-button-type="continue_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="false"></div>
-    <div
-  class="fb-like"
-  data-share="true"
-  data-width="450"
-  data-show-faces="true">
-</div>
-
-  </div>
 
 
-<footer>
-   <div align="center" class="tags">
-    <span class="tags-title">Tags:</span> <a href="home.html" rel="tag"><b>Home | </a> <a href="youtube.html" rel="tag">YouTube | </a> <a href="projects.html" rel="tag">Projects |</a> <a href="contact.html" rel="tag">Contact Me |</b></a> <a href="about.html" rel="tag"><b>About Me</b></a>
-  </div>
-  <div class="social">
-  <a class="btn btn-social-icon btn-youtube" href="https://youtube.com/vikashkhairwal">
-    <span class="fa fa-youtube"></span>
-  </a>
-  <a class="btn btn-social-icon btn-github" href="https://github.com/vikashkhairwal">
-    <span class="fa fa-github"></span>
-  </a>
-  <a class="btn btn-social-icon btn-facebook" href="https://facebook.com/vikashkhairwal">
-    <span class="fa fa-facebook"></span>
-  </a>
-  <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/vikashkhairwal">
-    <span class="fa fa-twitter"></span>
-  </a>
-  <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/vikashkhairwal/">
-    <span class="fa fa-linkedin"></span>
-  </a>
-  <a class="btn btn-social-icon btn-google" href="https://plus.google.com/u/0/+VikashKhairwal">
-    <span class="fa fa-google"></span>
-  </a>
 
-  </div>
-  <address align="center">Copyright 2017 &copy; All Rights Reserved <i>www.vikashkhairwal.com</i></address>
-  <h5 align="center"><strong>Web Designer and Developer : Vikash Khairwal</strong></h5>
-</footer>
-</body>
-</html>
+
+
+
+
+
+
