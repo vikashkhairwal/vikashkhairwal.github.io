@@ -34,13 +34,13 @@
   }
 
   window.fbAsyncInit = function() {
-  FB.init({
-    appId      : '{340899209694569}',
-    cookie     : true,  // enable cookies to allow the server to access 
-                        // the session
-    xfbml      : true,  // parse social plugins on this page
-    version    : 'v2.1' // use graph api version 2.8
-  });
+    FB.init({
+      appId      : '340899209694569',
+      xfbml      : true,
+      version    : 'v2.10'
+    });
+    FB.AppEvents.logPageView();
+  };
 
   // Now that we've initialized the JavaScript SDK, we call 
   // FB.getLoginStatus().  This function gets the state of the
@@ -78,7 +78,7 @@
         'Thanks for logging in, ' + response.name + '!';
     });
   }
-</script>
+
 
 <!--
   Below we include the Login Button social plugin. This button uses
@@ -88,7 +88,7 @@
 
 <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
 </fb:login-button>
-
+</script>
 <div id="status">
 </div>
 <div id="fb-root"></div>
