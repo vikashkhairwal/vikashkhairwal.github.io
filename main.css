@@ -1,6 +1,4 @@
 .jumbotron {
-  background-image:url('background.jpg');
-  height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -17,7 +15,7 @@ background-color:#f7f7f7;
 	display: inline;
 	margin-left: 70px;
   color: #5a5a5a;
-  font-size:20px;
+  font-size:15px;
   font-weight: bold;
   padding: 4px 10px;
   text-transform: uppercase;
@@ -41,7 +39,7 @@ video {
 }
 
 .jumbotron1{
-  height: 500px;
+  height: 95%;
   background-repeat: no-repeat;
   background-size: cover;
 }
