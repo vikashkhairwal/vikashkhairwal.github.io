@@ -1,6 +1,6 @@
 {
   "title": "Benefit Count File",
-  "description": "Your app fetched this from a remote endpoint!",
+  "vfadd": "300",
   "counts": [
     { "title": "Vodafone Add", "count": "1977"},
     { "title": "Vodafone Remove", "count": "1985"},
