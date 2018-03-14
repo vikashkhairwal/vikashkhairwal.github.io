@@ -1,10 +1,7 @@
 {
-  "title": "The Basics - Networking",
-  "description": "Your app fetched this from a remote endpoint!",
-  "movies": [
-    { "title": "Star Wars", "releaseYear1": "1977"},
-    { "title": "Back to the Future", "releaseYear2": "1985"},
-    { "title": "The Matrix", "releaseYear3": "1999"},
-    { "title": "Inception", "releaseYear4": "2010"}
-  ]
+	"delta":"400"
+  "vfadd": "2031",
+  "vfremove": "52",
+  "zadd": "456",
+  "zremove":"43"
 }
