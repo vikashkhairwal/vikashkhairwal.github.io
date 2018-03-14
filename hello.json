@@ -1,7 +1,7 @@
 {
-   "delta":"delta 400"
-  "vfadd": "2031",
-  "vfremove": "52",
-  "zadd": "456",
-  "zremove":"43"
+   "delta":"delta 400",
+   "vfadd": "2031",
+   "vfremove": "52",
+   "zadd": "456",
+   "zremove":"43"
 }
